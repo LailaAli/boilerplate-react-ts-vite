@@ -1,0 +1,70 @@
+// Font families
+$font-family-poppins: 'Poppins',
+sans-serif;
+$font-family-base: $font-family-poppins;
+
+// Font weights
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+// Font sizes
+$font-size-xxs: 1rem;
+$font-size-xs: 1.2rem;
+$font-size-sm: 1.44rem;
+$font-size-base: 1.6rem;
+$font-size-md: 2.074rem;
+$font-size-lg: 2.488rem;
+$font-size-xl: 2.986rem;
+
+// Line heights
+$line-height-sm: 1.25;
+$line-height-base: 1.5;
+
+// Letter spacing
+$letter-spacing-base: .06rem;
+
+// Colors
+$color-black: #000000;
+$color-gray-dark: #3e3e3e;
+$color-gray-medium: #A7A7A7;
+$color-gray-light: #dbdbdb;
+$color-gray-lighter: #f8f8f8;
+$color-primary: #0063f7;
+$color-white: #ffffff;
+
+// Size
+$size-xxs: 0.4rem;
+$size-xs: .8rem;
+$size-sm: 1.2rem;
+$size-base: 1.6rem;
+$size-md: 2.4rem;
+$size-lg: 3.2rem;
+$size-xl: 4rem;
+
+// Spacing
+$spacing-xxs: 0.4rem;
+$spacing-xs: .8rem;
+$spacing-sm: 1.2rem;
+$spacing-base: 1.6rem;
+$spacing-md: 2.4rem;
+$spacing-lg: 3.2rem;
+$spacing-xl: 4rem;
+$spacing-xxl: 4.8rem;
+$spacing-3xl: 5.6rem;
+
+// Border Radius
+$border-radius-sm: 1.6rem;
+$border-radius-md: 2.4rem;
+
+// Breakpoints
+$breakpoint-mobile-sm: 320;
+$breakpoint-mobile: 540;
+$breakpoint-tablet-sm: 768;
+$breakpoint-tablet: 1024;
+$breakpoint-laptop: 1200;
+$breakpoint-desktop: 1800;
+
+@import 'mixins/breakpoints.scss';
